@@ -98,7 +98,7 @@ function App() {
             {
               activeCourse && activeCourse.announcement ? (
                   <div>
-                    activeCourse.announcement
+                    {activeCourse.announcement}
                   </div>
               ) : (
                   <div>
